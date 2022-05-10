@@ -6,30 +6,7 @@
     </head>
 
     <body>
-        <h1>To Do List</h1>
-        <p>Click the box when you have completed the task:</p>
-
-        <label for="myCheck">Sweep:</label> 
-        <input type="checkbox" id="myCheck" onclick="myFunction()">
-        
-        <p id="text" style="display:none">You have swept!</p>
-    
-        <label for="myCheck">Mop:</label> 
-        <input type="checkbox" id="myCheck" onclick="myFunction()">
-        
-        <p id="text" style="display:none">You have mopped!!</p>
-        
-        <script>
-        function myFunction() {
-          let checkBox = document.getElementById("myCheck");
-          let text = document.getElementById("text");
-          if (checkBox.checked == true){
-            text.style.display = "block";
-          } else {
-             text.style.display = "none";
-          }
-        }
-        </script>
+  
         
     </body>
 </html>
