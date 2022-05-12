@@ -2,11 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>My First Webpage!</title>
+        <title>My To Do List</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-  
+        <div class="taskTitle">
+            Task List
+        </div>
+
+        <input id="todo-title" type="text" onfocus="this.value=''" value=''/>
+        <button onclick="addToDo()">Add Todo</button>   
+        <div id="todo-list"></div>
+
+        <button onclick="deleteToDo()">Delete Todo</button>
+        <script src="todo.js">
+
+        </script>
         
     </body>
 </html>
